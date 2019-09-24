@@ -1,3 +1,7 @@
+/**
+ * @author Paulus Gandung Prakosa <rvn.plvhx@gmail.com>
+ */
+
 #include "./scrypt.h"
 #include "./salsa_20_8.h"
 #include "./mem/static.h"
@@ -48,7 +52,7 @@ void scrypt_block_mix(uint32_t *in, uint32_t *out, size_t r)
 		salsa_20_8(tmp, otmp);
 
 		// 4. Y[i] = X
-                // 6.  B' = (Y[0], Y[2], ..., Y[2 * r - 2], Y[1], Y[3], ..., Y[2 * r - 1])
+        // 6.  B' = (Y[0], Y[2], ..., Y[2 * r - 2], Y[1], Y[3], ..., Y[2 * r - 1])
 		blkcpy(&out[i * 8 + r * 16], otmp, 64);
 		blkcpy(tmp, otmp, 64);
 	}

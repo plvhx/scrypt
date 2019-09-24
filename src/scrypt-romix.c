@@ -1,3 +1,7 @@
+/**
+ * @author Paulus Gandung Prakosa <rvn.plvhx@gmail.com>
+ */
+
 #include "./scrypt.h"
 #include "./mem/static.h"
 

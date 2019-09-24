@@ -1,3 +1,7 @@
+/**
+ * @author Paulus Gandung Prakosa <rvn.plvhx@gmail.com>
+ */
+
 #include <errno.h>
 #include <stdlib.h>
 

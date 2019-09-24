@@ -1,3 +1,7 @@
+/**
+ * @author Paulus Gandung Prakosa <rvn.plvhx@gmail.com>
+ */
+
 #ifndef _SHA_1_H_
 #define _SHA_1_H_
 

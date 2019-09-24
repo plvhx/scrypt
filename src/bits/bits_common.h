@@ -1,3 +1,7 @@
+/**
+ * @author Paulus Gandung Prakosa <rvn.plvhx@gmail.com>
+ */
+
 #ifndef _BITS_COMMON_H_
 #define _BITS_COMMON_H_
 

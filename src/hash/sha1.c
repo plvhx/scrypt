@@ -1,3 +1,7 @@
+/**
+ * @author Paulus Gandung Prakosa <rvn.plvhx@gmail.com>
+ */
+
 #include "../bits/bits_common.h"
 #include "../mem/static.h"
 #include "./sha1.h"

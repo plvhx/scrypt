@@ -1,3 +1,7 @@
+/**
+ * @author Paulus Gandung Prakosa <rvn.plvhx@gmail.com>
+ */
+
 #ifndef _SALSA_20_8_H_
 #define _SALSA_20_8_H_
 

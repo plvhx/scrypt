@@ -1,3 +1,7 @@
+/**
+ * @author Paulus Gandung Prakosa <rvn.plvhx@gmail.com>
+ */
+
 #include "./bits/bits_common.h"
 #include "./mem/static.h"
 #include "./salsa_20_8.h"
